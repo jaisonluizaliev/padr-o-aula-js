@@ -1,0 +1,21 @@
+WHY MODULES?
+
+- São archivos ee código que dividimos para importar quando necessários
+
+- Quando estamos progrmaando, nosso codigo pode ser dividido em partes que permitam
+    Reusabilidade
+    Manutenibilidade
+    Separação de contextos
+
+TYPES OF MODULES??
+
+- Antes do ECS-6, o js não possuia um jeito de tratar módulos 
+
+- Foram criados vários padrões, dentre eles o CommomJS
+    é uma especificação de modularização para o js 
+
+- É o padrão qie o NodeJs adota
+    - após o surgimento do ECS-6, o node conseguiu adaptar sua estrutura para utilizar este novo formato que estudaremos, mas manteve o formato de commomJS 
+    - Graças ao babel também podemos usar no front-end
+
+- Nesta parte, estudaremos tanto o  CommomJS quanto o nativo do ES6 
