@@ -1,1 +1,2 @@
-console.log('ola cocos fedidos')
+import "core-js"
+import "regenerator-runtime"
